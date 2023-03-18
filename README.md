@@ -1,4 +1,3 @@
-# Drop and Inject payload into .NET EXE
 #### All tools/code used have been uploaded.
 
 ## Full tutorial & showcase:
